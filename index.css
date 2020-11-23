@@ -1,0 +1,10 @@
+img{
+  width: 100%;
+}
+
+
+@media all and (min-width: 800px){
+  .dog-images{
+    width: 800px;
+  }
+}
