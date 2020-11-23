@@ -38,7 +38,7 @@ function getDogImage(breed) {
   const options = {method: 'GET'};
   fetch(`https://dog.ceo/api/breed/${breed}/images/random`, options)
     .then(response => response.json())
-    .then(responseJson => generateImages(responseJson));
+    .then(responseJson => generateImages(responseJson)).catch();
     
 }
 
